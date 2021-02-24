@@ -22,6 +22,7 @@ class ContainerWithMostWaterTest {
         of(new int[] {}, 0),
         of(new int[] {500}, 0),
         of(new int[] {7, 1, 2, 3, 9}, 28),
-        of(new int[] {4, 8, 1, 2, 3, 9}, 32));
+        of(new int[] {4, 8, 1, 2, 3, 9}, 32),
+        of(new int[] {5, 7, 1, 9, 12, 1, 15, 7}, 42));
   }
 }
